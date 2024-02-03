@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "Pg6qpbyPs9vCZRECVb1iUmzGSWgHrnOQCTqpULLyj6QDlZxPiHCavxUK/OUKlgbsG7TdAf6No568bXecjMVPXQ==",
+  "dgSpecHash": "iV3MKRM+n0DyFlIXUOu7o/RfB9u94qtQWgvtmJwDHitP2AKk/J1L3W0Ke8UNg0SDbCL9SkNV5WQscSOcRsiJ3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabriel.vrbatista\\source\\repos\\Doador1.Api\\Doador.service\\Doador.service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gabriel.vrbatista\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
+    "C:\\Users\\gabriel.vrbatista\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\gabriel.vrbatista\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\gabriel.vrbatista\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\gabriel.vrbatista\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\gabriel.vrbatista\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\gabriel.vrbatista\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\gabriel.vrbatista\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
+    "C:\\Users\\gabriel.vrbatista\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\gabriel.vrbatista\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

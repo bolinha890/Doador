@@ -7,14 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Doador1.Api\Doador1.Api.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Enums\" />
-    <Folder Include="interface\" />
-    <Folder Include="commands\" />
   </ItemGroup>
 
 </Project>
