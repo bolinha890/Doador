@@ -13,8 +13,7 @@ namespace Doador1.Api.Controllers
 
         public DoadorControler(IDoadorService doadorservice)
         {
-            
-
+            _doadorservice = doadorservice;
         }
         [HttpPost]
         [Route ("cadastrardoador")]
