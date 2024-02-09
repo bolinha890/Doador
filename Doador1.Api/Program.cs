@@ -13,7 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IDoadorService, DoadorService>();
 builder.Services.AddScoped<IDoadorRepository, DoadorRepository>();
 builder.Services.AddScoped<IProdutoService, ProdutoService>();
-builder.Services.AddScoped<IProdutoRepository, Produtr>
+builder.Services.AddScoped<IProdutoRepository, ProdutoReopository>();
 
 var app = builder.Build();
 

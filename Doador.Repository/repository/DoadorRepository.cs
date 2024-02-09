@@ -14,16 +14,13 @@ namespace Doador.Repository.repository
     {
        
         
-            private string conexao = @"Server=(localdb)\mssqllocaldb;Database=Doador;Trusted_Connection=True;MultipleActiveResultSets=true";
+             string conexao = @"Server=(localdb)\mssqllocaldb;Database=Doador;Trusted_Connection=True;MultipleActiveResultSets=true";
 
-            public Task<IEnumerable<DoadorCommand>> GetDoadoresAsync()
-            {
-                throw new NotImplementedException();
-            }
 
-            public async Task<string> PostAsync(DoadorCommand command)
+                        
+            public async Task<string> postAsync(DoadorCommand command)
             {
-                string queryInsert = @"INSERT INTO Doador(Nome, Cidade, CEP, Email, Telefone)
+                string queryInsert = @"INSERT INTO Doador(DoadorNome, DoadorCidade, DoadorCEP, DoadorE_mail, Doadortelefone)
                                   VALUES(@Nome, @Cidade,  @CEP, @Email, @Telefone)";
                 using (SqlConnection conn = new SqlConnection(conexao))
                 {
@@ -36,20 +33,10 @@ namespace Doador.Repository.repository
                         Telefone = command.Doadortelefone
                     });
                 }
-                return queryInsert;
-                {
-                    throw new NotImplementedException();
-                }
+            return "Cadastro feito coom sucesso";
             }
 
-        public Task<string> postAsync(DoadorCommand command)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void postAsync()
-        {
-            throw new NotImplementedException();
-        }
+       
+    
     }
 }

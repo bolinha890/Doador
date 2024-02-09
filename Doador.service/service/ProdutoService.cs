@@ -10,19 +10,18 @@ namespace Doador.service.service
 {
     public class ProdutoService : IProdutoService
     {
-        public void GetAsync()
+      private readonly IProdutoRepository _repository;
+
+        public ProdutoService(IProdutoRepository repository)
         {
-
-        }
-
-        public void postAsync() 
-        { 
-
+            _repository = repository;
         }
 
         public Task<string> postAsync(ProdutoCommand Command)
         {
-            throw new NotImplementedException();
+            return _repository.postAsync(Command);
         }
+
+       
     }
 }

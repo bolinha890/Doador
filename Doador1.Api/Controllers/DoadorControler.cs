@@ -15,21 +15,13 @@ namespace Doador1.Api.Controllers
         {
             _doadorservice = doadorservice;
         }
+
         [HttpPost]
-        [Route ("cadastrardoador")]
+        [Route("cadastrardoador")]
         public async Task<IActionResult> postAsync([FromBody] DoadorCommand command)
         {
             await _doadorservice.postAsync(command);
             return Ok();
         }
-
-
-        private readonly IDoadorRepository _doadorrepository;
-
-        public DoadorControler(IDoadorRepository doadorRepository)
-        {
-
-        }
-
-    }
+     }
 }

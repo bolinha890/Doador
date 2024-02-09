@@ -10,7 +10,5 @@ namespace Doador.Domain.Interface
     public interface IDoadorRepository
     {
         Task<string> postAsync(DoadorCommand command);
-
-        void postAsync();
     }
 }

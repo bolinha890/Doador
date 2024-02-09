@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Doador.Domain.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,9 +13,13 @@ namespace Doador.Domain.commands
         public int ProdutoId { get; set; }
         public string ProdutoNome { get; set; }
         public string ProdutoDescricao { get; set; }
-        public long ProdutCategoria { get; set; }
-        public string ProdutoDisponibilidade{ get; set; }
+        public ECategoriaProdutos ProdutoCategoria { get; set; }
+        public bool ProdutoDisponibilidade{ get; set; }
 
-        public int Doadortelefone { get; set; }
+       
+        
+        
+
+
     }
 }

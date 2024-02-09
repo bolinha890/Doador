@@ -22,13 +22,9 @@ namespace Doador.service.service
 
         public Task<string> postAsync(DoadorCommand command)
         {
-            throw new NotImplementedException();
 
-        }
-
-        public void postAsync()
-        {
-            throw new NotImplementedException();
+           return _doadorrepository.postAsync(command); 
+            
         }
     }
 }

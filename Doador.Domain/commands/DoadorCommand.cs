@@ -11,9 +11,9 @@ namespace Doador.Domain.commands
        public int DoadorId {  get; set; }
         public string DoadorNome { get; set; }
         public string DoadorCidade { get; set; }
-        public long DoadorCep { get; set;}
+        public string DoadorCep { get; set;}
         public string DoadorE_mail { get; set;}
 
-        public int  Doadortelefone { get; set; }
+        public string  Doadortelefone { get; set; }
     }
 }

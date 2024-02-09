@@ -13,7 +13,6 @@ namespace Doador1.Api.Controllers
 
         public ProdutoController(IProdutoService produtoService)
         {
-
             _produtoService = produtoService;
         }
 
